@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dental Delight | AIIMS Delhi Alumni Dental Clinic in Kankarbagh, Patna</title>
+  <meta name="description" content="Dental Delight in Kankarbagh, Patna is led by AIIMS Delhi alumni. Painless root canal, cosmetic dentistry, whitening and preventive care. Rated 4.9 on Google by 306+ patients." />
+  <meta name="theme-color" content="#0F294A" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0F294A', 800: '#15355E', 700: '#1D4476', 100: '#DCE6F2' },
+            mist: '#F8FAFC'
+          },
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    };
+  </script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+
+  <!-- Structured data for local search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Dental Delight",
+    "description": "An initiative by AIIMS Delhi Alumni",
+    "telephone": "+91-9910977697",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "V 28, near Shanti Ray Hospital, Vidyapuri, Jogipur, Kankarbagh, Bankman Colony",
+      "addressLocality": "Patna",
+      "addressRegion": "Bihar",
+      "postalCode": "800020",
+      "addressCountry": "IN"
+    },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "306" }
+  }
+  </script>
+
+  <style>
+    :root { color-scheme: light; }
+    body { font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    section[id] { scroll-margin-top: 5.5rem; }
+    :focus-visible { outline: 3px solid #0EA5E9; outline-offset: 3px; border-radius: 6px; }
+
+    /* One orchestrated moment: hero entrance */
+    @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+    @keyframes pop  { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: none; } }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .pop  { opacity: 0; animation: pop .6s cubic-bezier(.2,.7,.2,1) forwards; }
+    .d1 { animation-delay: .05s } .d2 { animation-delay: .15s } .d3 { animation-delay: .25s }
+    .d4 { animation-delay: .35s } .d5 { animation-delay: .55s } .d6 { animation-delay: .75s }
+
+    /* Interactions that answer the user */
+    .lift { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+    .lift:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -18px rgba(15,41,74,.35); }
+
+    /* Mobile menu */
+    #mobile-menu { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease; }
+    #mobile-menu.open { grid-template-rows: 1fr; }
+    #mobile-menu > div { overflow: hidden; }
+
+    /* Before / after slider */
+    .ba-range { -webkit-appearance: none; appearance: none; background: transparent; position: absolute; inset: 0; width: 100%; height: 100%; cursor: ew-resize; margin: 0; }
+    .ba-range::-webkit-slider-thumb { -webkit-appearance: none; width: 44px; height: 44px; border-radius: 9999px; background: #fff; border: 3px solid #0D9488; box-shadow: 0 6px 18px rgba(15,41,74,.35); }
+    .ba-range::-moz-range-thumb { width: 40px; height: 40px; border-radius: 9999px; background: #fff; border: 3px solid #0D9488; box-shadow: 0 6px 18px rgba(15,41,74,.35); }
+    .ba-range:focus-visible { outline-offset: -4px; }
+
+    /* Lightbox visual sizing */
+    #lb-visual > .visual { height: min(58vh, 420px) !important; }
+    #lb-visual > .visual i, #lb-visual > .visual svg { width: 96px; height: 96px; }
+
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { scrollbar-width: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0s !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+      .rise, .pop { opacity: 1; }
+    }
+    @media (max-width: 1023px) { body { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); } }
+  </style>
+</head>
+
+<body class="bg-white text-slate-700 antialiased">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-white focus:text-navy focus:px-4 focus:py-2 focus:rounded-lg focus:shadow-lg">Skip to main content</a>
+
+  <!-- A. ANNOUNCEMENT BAR -->
+  <div class="bg-navy text-white text-[13px]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex flex-wrap items-center justify-center lg:justify-between gap-x-6 gap-y-1">
+      <p class="flex items-center gap-2"><span aria-hidden="true">📍</span><span>V 28, near Shanti Ray Hospital, Kankarbagh, Patna, Bihar</span></p>
+      <p class="flex items-center gap-2"><span aria-hidden="true">⏰</span><span>Open Daily: Closes at 8:00 PM (20:00)</span></p>
+      <p class="flex items-center gap-2"><span aria-hidden="true">💬</span><span>WhatsApp: <a href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="font-semibold underline underline-offset-2 hover:text-amber-400">099109 77697</a></span></p>
+    </div>
+  </div>
+
+  <!-- B. HEADER -->
+  <header id="top" class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-[72px] flex items-center justify-between gap-4">
+      <a href="#home" class="flex items-center gap-3 shrink-0" aria-label="Dental Delight, home">
+        <span class="relative grid place-items-center w-11 h-11 rounded-xl bg-navy">
+          <svg viewBox="0 0 200 200" class="w-6 h-6" aria-hidden="true"><path fill="#fff" d="M100 20C70 10 40 25 42 62c2 33 13 48 16 78 3 30 8 45 20 45 14 0 14-35 22-35s8 35 22 35c12 0 17-15 20-45 3-30 14-45 16-78 2-37-28-52-58-42z"/></svg>
+          <span class="absolute -right-1 -bottom-1 grid place-items-center w-4 h-4 rounded-full bg-amber-500 ring-2 ring-white" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="w-2.5 h-2.5" fill="none" stroke="#0F294A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>
+          </span>
+        </span>
+        <span class="leading-tight">
+          <span class="block text-lg font-extrabold text-navy tracking-tight">Dental Delight</span>
+          <span class="block text-[11px] text-slate-600 font-medium">An initiative by AIIMS Delhi Alumni</span>
+        </span>
+      </a>
+
+      <nav class="hidden xl:flex items-center gap-1" aria-label="Primary">
+        <a class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:text-teal-700 hover:bg-teal-50 transition" href="#home">Home</a>
+        <a class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:text-teal-700 hover:bg-teal-50 transition" href="#about">About</a>
+        <a class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:text-teal-700 hover:bg-teal-50 transition" href="#services">Services</a>
+        <a class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:text-teal-700 hover:bg-teal-50 transition" href="#doctors">Doctors &amp; Pedigree</a>
+        <a class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:text-teal-700 hover:bg-teal-50 transition" href="#gallery">Gallery</a>
+        <a class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:text-teal-700 hover:bg-teal-50 transition" href="#testimonials">Testimonials</a>
+        <a class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:text-teal-700 hover:bg-teal-50 transition" href="#contact">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="hidden md:inline-flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold text-navy hover:bg-slate-100 transition">
+          <i data-lucide="message-circle" class="w-4 h-4 text-emerald-700"></i>WhatsApp: 099109 77697
+        </a>
+        <a href="#booking" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-teal-700 text-white text-sm font-bold hover:bg-teal-800 active:scale-[.98] transition shadow-sm">
+          Book Appointment
+        </a>
+        <button id="menu-btn" class="xl:hidden grid place-items-center w-11 h-11 rounded-xl border border-slate-200 text-navy hover:bg-slate-50 transition" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <i data-lucide="menu" class="w-5 h-5" id="menu-icon-open"></i>
+          <i data-lucide="x" class="w-5 h-5 hidden" id="menu-icon-close"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="xl:hidden border-t border-slate-200 bg-white" aria-hidden="true">
+      <div>
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 py-3 grid gap-1" aria-label="Mobile">
+          <a class="m-link px-3 py-3 rounded-lg font-semibold text-navy hover:bg-teal-50" href="#home" tabindex="-1">Home</a>
+          <a class="m-link px-3 py-3 rounded-lg font-semibold text-navy hover:bg-teal-50" href="#about" tabindex="-1">About</a>
+          <a class="m-link px-3 py-3 rounded-lg font-semibold text-navy hover:bg-teal-50" href="#services" tabindex="-1">Services</a>
+          <a class="m-link px-3 py-3 rounded-lg font-semibold text-navy hover:bg-teal-50" href="#doctors" tabindex="-1">Doctors &amp; Pedigree</a>
+          <a class="m-link px-3 py-3 rounded-lg font-semibold text-navy hover:bg-teal-50" href="#gallery" tabindex="-1">Gallery</a>
+          <a class="m-link px-3 py-3 rounded-lg font-semibold text-navy hover:bg-teal-50" href="#testimonials" tabindex="-1">Testimonials</a>
+          <a class="m-link px-3 py-3 rounded-lg font-semibold text-navy hover:bg-teal-50" href="#contact" tabindex="-1">Contact</a>
+          <a href="#booking" class="m-link mt-2 text-center px-5 py-3 rounded-xl bg-teal-700 text-white font-bold" tabindex="-1">Book Appointment</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- C. HERO -->
+    <section id="home" class="bg-mist">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 lg:py-20 grid lg:grid-cols-[1.05fr_.95fr] gap-12 lg:gap-8 items-center">
+        <div>
+          <div class="rise d1 inline-flex items-center gap-2 bg-white border border-slate-200 rounded-full pl-3 pr-4 py-1.5 text-sm font-semibold text-navy shadow-sm">
+            <span class="flex text-amber-500" aria-hidden="true">★</span>
+            <span>4.9 / 5.0 Rating based on 306+ Google Reviews</span>
+          </div>
+          <h1 class="rise d2 mt-6 text-[2.1rem] sm:text-5xl lg:text-[3.35rem] leading-[1.1] font-extrabold text-navy tracking-tight">
+            World-Class Dental Care in Patna, Driven by AIIMS Delhi Specialists
+          </h1>
+          <p class="rise d3 mt-5 text-lg text-slate-600 max-w-xl leading-relaxed">
+            Expert, highly-rated dental treatments delivered with precision, genuine compassion, and advanced technology. Experience stress-free, painless dentistry.
+          </p>
+          <p class="rise d3 mt-5 inline-flex items-center gap-2 text-sm font-bold text-teal-800 bg-teal-50 border border-teal-100 rounded-full px-4 py-2">
+            <i data-lucide="badge-check" class="w-4 h-4 text-amber-500"></i> Founded &amp; Managed by AIIMS Delhi Alumni
+          </p>
+          <div class="rise d4 mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#booking" class="group inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-navy text-white font-bold hover:bg-navy-800 active:scale-[.98] transition shadow-lg shadow-navy/20">
+              <i data-lucide="calendar-check" class="w-5 h-5"></i> Schedule Your Consultation
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Shanti+Ray+Hospital+Kankarbagh+Patna+Bihar" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-white text-navy font-bold border-2 border-navy/15 hover:border-teal-700 hover:text-teal-800 transition">
+              <i data-lucide="navigation" class="w-5 h-5"></i> Get Directions (Patna Clinic)
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero visual -->
+        <div class="relative mx-auto w-full max-w-[520px] pop d3" aria-hidden="true">
+          <div class="relative aspect-[1/1.02] rounded-[2.5rem] bg-navy overflow-hidden">
+            <svg viewBox="0 0 400 408" class="absolute inset-0 w-full h-full">
+              <circle cx="200" cy="210" r="170" fill="#15355E"/>
+              <circle cx="200" cy="210" r="125" fill="#1D4476"/>
+              <circle cx="200" cy="210" r="82" fill="#0D9488" opacity=".35"/>
+              <g stroke="#38BDF8" stroke-opacity=".35" stroke-width="1.5" fill="none">
+                <path d="M30 330 q60-40 120-10 t120-10 t110-30"/>
+                <path d="M30 350 q60-40 120-10 t120-10 t110-30" stroke-opacity=".2"/>
+              </g>
+              <!-- tooth -->
+              <g transform="translate(100 105) scale(1)">
+                <path fill="#fff" d="M100 20C70 10 40 25 42 62c2 33 13 48 16 78 3 30 8 45 20 45 14 0 14-35 22-35s8 35 22 35c12 0 17-15 20-45 3-30 14-45 16-78 2-37-28-52-58-42z"/>
+                <path fill="#E2F4F7" d="M100 20c30-10 60 5 58 42-1 14-4 25-8 36-6-30-20-60-50-78z" opacity=".8"/>
+                <path d="M62 52c0-14 8-22 20-24" stroke="#BFE7EE" stroke-width="6" stroke-linecap="round" fill="none"/>
+              </g>
+              <!-- sparkles -->
+              <g fill="#F59E0B">
+                <path d="M318 96l5 14 14 5-14 5-5 14-5-14-14-5 14-5z"/>
+                <path d="M92 190l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#7DD3FC"/>
+              </g>
+            </svg>
+          </div>
+
+          <div class="absolute -left-3 sm:-left-8 top-10 rise d5 bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 border border-slate-100">
+            <span class="grid place-items-center w-11 h-11 rounded-xl bg-rose-50 text-rose-600"><i data-lucide="heart-handshake" class="w-5 h-5"></i></span>
+            <div class="leading-tight">
+              <p class="text-2xl font-extrabold text-navy">100%</p>
+              <p class="text-xs font-semibold text-slate-600">Genuine Care</p>
+            </div>
+          </div>
+
+          <div class="absolute -right-2 sm:-right-6 bottom-10 rise d6 bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 border border-slate-100 max-w-[230px]">
+            <span class="grid place-items-center w-11 h-11 rounded-xl bg-teal-50 text-teal-700 shrink-0"><i data-lucide="shield-check" class="w-5 h-5"></i></span>
+            <div class="leading-tight">
+              <p class="text-sm font-extrabold text-navy">Specialized Painless RCT</p>
+              <p class="text-xs text-slate-600 mt-0.5">Single-sitting, rotary precision</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. TRUST STRIP -->
+    <section aria-label="Key highlights" class="bg-white border-y border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 lg:divide-x divide-slate-200">
+        <div class="flex gap-4 py-7 lg:px-6 first:lg:pl-0">
+          <span class="grid place-items-center w-12 h-12 shrink-0 rounded-xl bg-navy text-white"><i data-lucide="graduation-cap" class="w-6 h-6"></i></span>
+          <div><h3 class="font-bold text-navy">AIIMS Delhi Alumni</h3><p class="text-sm text-slate-600 mt-1">Led by premier national medical specialists.</p></div>
+        </div>
+        <div class="flex gap-4 py-7 lg:px-6">
+          <span class="grid place-items-center w-12 h-12 shrink-0 rounded-xl bg-amber-50 text-amber-500"><i data-lucide="star" class="w-6 h-6 fill-amber-500"></i></span>
+          <div><h3 class="font-bold text-navy">4.9 ★ Rated Excellence</h3><p class="text-sm text-slate-600 mt-1">Over 306+ verified happy patient reviews.</p></div>
+        </div>
+        <div class="flex gap-4 py-7 lg:px-6">
+          <span class="grid place-items-center w-12 h-12 shrink-0 rounded-xl bg-sky-50 text-sky-700"><i data-lucide="microscope" class="w-6 h-6"></i></span>
+          <div><h3 class="font-bold text-navy">Advanced RCT &amp; Pain Management</h3><p class="text-sm text-slate-600 mt-1">State-of-the-art micro-endodontics.</p></div>
+        </div>
+        <div class="flex gap-4 py-7 lg:px-6">
+          <span class="grid place-items-center w-12 h-12 shrink-0 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="sparkles" class="w-6 h-6"></i></span>
+          <div><h3 class="font-bold text-navy">Hygienic &amp; Friendly Setup</h3><p class="text-sm text-slate-600 mt-1">4-tier sterilization and anxiety-free patient care.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- E. ABOUT -->
+    <section id="about" class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight leading-tight">Elite medical pedigree, genuine care</h2>
+          <p class="mt-5 text-lg text-slate-600 leading-relaxed">
+            Dental Delight was founded and is managed by AIIMS Delhi alumni with one aim: to bring premier, metropolitan-standard dental healthcare to Patna, without the travel and without the guesswork.
+          </p>
+          <p class="mt-4 text-slate-600 leading-relaxed">
+            Every plan starts with a careful diagnosis and a clear explanation. You see your options, understand the reasons, and decide with confidence. That is how a hospital-trained team treats a family clinic.
+          </p>
+          <a href="#booking" class="mt-8 inline-flex items-center gap-2 font-bold text-teal-800 hover:text-navy transition">
+            Meet us for a consultation <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <div id="doctors" class="grid gap-4 scroll-mt-28">
+          <article class="lift flex gap-5 p-6 rounded-2xl border border-slate-200 bg-white">
+            <span class="grid place-items-center w-12 h-12 shrink-0 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="scale" class="w-6 h-6"></i></span>
+            <div><h3 class="font-bold text-navy text-lg">Ethical &amp; genuine care</h3><p class="mt-1 text-slate-600">Transparent treatment plans with zero unnecessary procedures. You pay only for what your teeth need.</p></div>
+          </article>
+          <article class="lift flex gap-5 p-6 rounded-2xl border border-slate-200 bg-white">
+            <span class="grid place-items-center w-12 h-12 shrink-0 rounded-xl bg-sky-50 text-sky-700"><i data-lucide="smile" class="w-6 h-6"></i></span>
+            <div><h3 class="font-bold text-navy text-lg">Patient-centric comfort</h3><p class="mt-1 text-slate-600">A gentle, friendly environment designed for nervous patients and children.</p></div>
+          </article>
+          <article class="lift flex gap-5 p-6 rounded-2xl border border-slate-200 bg-white">
+            <span class="grid place-items-center w-12 h-12 shrink-0 rounded-xl bg-amber-50 text-amber-600"><i data-lucide="shield-check" class="w-6 h-6"></i></span>
+            <div><h3 class="font-bold text-navy text-lg">Hospital-grade sterilization</h3><p class="mt-1 text-slate-600">Uncompromising hygiene protocols and modern ergonomic dental chairs.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- F. SERVICES -->
+    <section id="services" class="py-20 lg:py-28 bg-mist">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">Treatments we offer</h2>
+          <p class="mt-4 text-lg text-slate-600">From a first check-up to a full smile makeover, planned by specialists and explained before we begin.</p>
+        </div>
+
+        <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <article class="lift flex flex-col p-7 rounded-2xl bg-navy text-white">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-white/10 text-sky-300"><i data-lucide="zap" class="w-6 h-6"></i></span>
+            <h3 class="mt-5 text-xl font-bold">Specialized Root Canal Treatment (RCT)</h3>
+            <p class="mt-2 text-slate-200 leading-relaxed">Pain-free, single-sitting modern endodontic procedures with rotary precision.</p>
+            <a href="#booking" data-reason="Root Canal" class="inquire mt-auto pt-6 inline-flex items-center gap-2 font-bold text-amber-400 hover:text-white transition">Inquire about RCT <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+          </article>
+
+          <article class="lift flex flex-col p-7 rounded-2xl bg-white border border-slate-200">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="stethoscope" class="w-6 h-6"></i></span>
+            <h3 class="mt-5 text-xl font-bold text-navy">Specialist Consultation &amp; Second Opinion</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Detailed diagnosis and treatment blueprints from AIIMS alumni.</p>
+            <a href="#booking" data-reason="Consultation" class="inquire mt-auto pt-6 inline-flex items-center gap-2 font-bold text-teal-800 hover:text-navy transition">Book a consultation <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+          </article>
+
+          <article class="lift flex flex-col p-7 rounded-2xl bg-white border border-slate-200">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="gem" class="w-6 h-6"></i></span>
+            <h3 class="mt-5 text-xl font-bold text-navy">Cosmetic Dentistry &amp; Smile Design</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Veneers, aesthetic bonding, and complete smile makeovers.</p>
+            <a href="#booking" data-reason="Cosmetic" class="inquire mt-auto pt-6 inline-flex items-center gap-2 font-bold text-teal-800 hover:text-navy transition">Plan my smile <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+          </article>
+
+          <article class="lift flex flex-col p-7 rounded-2xl bg-white border border-slate-200">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="sun" class="w-6 h-6"></i></span>
+            <h3 class="mt-5 text-xl font-bold text-navy">Teeth Whitening</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Advanced in-office brightening treatments for instant results.</p>
+            <a href="#booking" data-reason="Whitening" class="inquire mt-auto pt-6 inline-flex items-center gap-2 font-bold text-teal-800 hover:text-navy transition">Ask about whitening <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+          </article>
+
+          <article class="lift flex flex-col p-7 rounded-2xl bg-white border border-slate-200">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="droplets" class="w-6 h-6"></i></span>
+            <h3 class="mt-5 text-xl font-bold text-navy">Preventive Dental Care</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Ultrasonic scaling, polishing, deep cavity protection, and fluoride therapy.</p>
+            <a href="#booking" data-reason="Routine Checkup" class="inquire mt-auto pt-6 inline-flex items-center gap-2 font-bold text-teal-800 hover:text-navy transition">Book a check-up <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+          </article>
+
+          <article class="lift flex flex-col p-7 rounded-2xl bg-white border border-slate-200">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="crown" class="w-6 h-6"></i></span>
+            <h3 class="mt-5 text-xl font-bold text-navy">General &amp; Restorative Dentistry</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Tooth-colored fillings, crowns, bridges, dentures, and emergency toothache relief.</p>
+            <a href="#booking" data-reason="General Treatment / Toothache" class="inquire mt-auto pt-6 inline-flex items-center gap-2 font-bold text-teal-800 hover:text-navy transition">Inquire now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- G. GALLERY -->
+    <section id="gallery" class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+          <div class="max-w-2xl">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">Inside the clinic</h2>
+            <p class="mt-4 text-lg text-slate-600">A look at the space, the technology, and the results our patients leave with.</p>
+          </div>
+          <div class="flex flex-wrap gap-2" role="group" aria-label="Filter gallery">
+            <button class="g-filter px-4 py-2 rounded-full text-sm font-bold border transition" data-filter="all" aria-pressed="true">All</button>
+            <button class="g-filter px-4 py-2 rounded-full text-sm font-bold border transition" data-filter="clinic" aria-pressed="false">Clinic</button>
+            <button class="g-filter px-4 py-2 rounded-full text-sm font-bold border transition" data-filter="technology" aria-pressed="false">Technology</button>
+            <button class="g-filter px-4 py-2 rounded-full text-sm font-bold border transition" data-filter="care" aria-pressed="false">Care</button>
+            <button class="g-filter px-4 py-2 rounded-full text-sm font-bold border transition" data-filter="smiles" aria-pressed="false">Smiles</button>
+          </div>
+        </div>
+
+        <!--
+          GALLERY NOTE: each .visual below is a styled placeholder. To use real clinic photos,
+          replace the contents of a .visual div with: <img src="your-photo.jpg" alt="..." class="w-full h-full object-cover">
+        -->
+        <div id="gallery-grid" class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+          <figure class="g-item" data-cat="clinic" data-title="Modern Operatory &amp; Ergonomic Dental Chair" data-desc="A spacious treatment room with an ergonomic chair, built for long-sitting comfort and precise work.">
+            <button type="button" class="open-lb group block w-full text-left rounded-2xl overflow-hidden border border-slate-200 lift bg-white">
+              <div class="visual h-56 grid place-items-center bg-navy text-sky-300"><i data-lucide="armchair" class="w-16 h-16"></i></div>
+              <figcaption class="p-4 flex items-center justify-between gap-3"><span class="font-bold text-navy">Modern operatory &amp; ergonomic dental chair</span><i data-lucide="maximize-2" class="w-4 h-4 text-slate-500 shrink-0"></i></figcaption>
+            </button>
+          </figure>
+
+          <figure class="g-item" data-cat="technology" data-title="Advanced Digital Imaging &amp; Sterilization Hub" data-desc="Digital imaging for accurate diagnosis, and a dedicated sterilization hub for hospital-grade hygiene.">
+            <button type="button" class="open-lb group block w-full text-left rounded-2xl overflow-hidden border border-slate-200 lift bg-white">
+              <div class="visual h-56 grid place-items-center bg-sky-100 text-sky-800"><i data-lucide="scan" class="w-16 h-16"></i></div>
+              <figcaption class="p-4 flex items-center justify-between gap-3"><span class="font-bold text-navy">Digital imaging &amp; sterilization hub</span><i data-lucide="maximize-2" class="w-4 h-4 text-slate-500 shrink-0"></i></figcaption>
+            </button>
+          </figure>
+
+          <figure class="g-item" data-cat="care" data-title="Welcoming Reception &amp; Child-Friendly Lounge" data-desc="A calm reception and a lounge where children and nervous patients can settle in before their visit.">
+            <button type="button" class="open-lb group block w-full text-left rounded-2xl overflow-hidden border border-slate-200 lift bg-white">
+              <div class="visual h-56 grid place-items-center bg-teal-100 text-teal-800"><i data-lucide="sofa" class="w-16 h-16"></i></div>
+              <figcaption class="p-4 flex items-center justify-between gap-3"><span class="font-bold text-navy">Welcoming reception &amp; child-friendly lounge</span><i data-lucide="maximize-2" class="w-4 h-4 text-slate-500 shrink-0"></i></figcaption>
+            </button>
+          </figure>
+
+          <figure class="g-item" data-cat="care" data-title="Doctor in Action: Precise Treatment Delivery" data-desc="Unhurried, careful treatment with every step explained to the patient.">
+            <button type="button" class="open-lb group block w-full text-left rounded-2xl overflow-hidden border border-slate-200 lift bg-white">
+              <div class="visual h-56 grid place-items-center bg-amber-100 text-amber-800"><i data-lucide="stethoscope" class="w-16 h-16"></i></div>
+              <figcaption class="p-4 flex items-center justify-between gap-3"><span class="font-bold text-navy">Doctor in action: precise treatment delivery</span><i data-lucide="maximize-2" class="w-4 h-4 text-slate-500 shrink-0"></i></figcaption>
+            </button>
+          </figure>
+
+          <!-- Before / After -->
+          <figure class="g-item sm:col-span-2" data-cat="smiles">
+            <div class="rounded-2xl overflow-hidden border border-slate-200 bg-white">
+              <div id="ba" class="relative h-56 sm:h-[260px] select-none bg-navy overflow-hidden">
+                <!-- After (base) -->
+                <div class="absolute inset-0 grid place-items-center bg-teal-50" id="ba-after"></div>
+                <!-- Before (clipped) -->
+                <div class="absolute inset-0 grid place-items-center bg-amber-50" id="ba-before" style="clip-path: inset(0 50% 0 0)"></div>
+                <span class="absolute left-3 top-3 px-3 py-1 rounded-full bg-navy text-white text-xs font-bold">Before</span>
+                <span class="absolute right-3 top-3 px-3 py-1 rounded-full bg-teal-700 text-white text-xs font-bold">After</span>
+                <div id="ba-line" class="absolute top-0 bottom-0 w-0.5 bg-white shadow pointer-events-none" style="left:50%"></div>
+                <input type="range" min="0" max="100" value="50" class="ba-range" id="ba-range" aria-label="Compare before and after smile" />
+              </div>
+              <figcaption class="p-4 flex items-center justify-between gap-3">
+                <span class="font-bold text-navy">Real patient smile transformations: drag to compare</span>
+                <span class="text-xs text-slate-600 hidden sm:block">Illustrative. Replace with consented patient photos.</span>
+              </figcaption>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- H. TESTIMONIALS -->
+    <section id="testimonials" class="py-20 lg:py-28 bg-navy text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
+          <div class="max-w-2xl">
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">What patients say about us</h2>
+            <p class="mt-4 text-lg text-slate-200">Honest words from people who sat in our chair.</p>
+          </div>
+          <div class="inline-flex items-center gap-4 rounded-2xl bg-white/10 border border-white/15 px-5 py-4 self-start">
+            <span class="text-4xl font-extrabold">4.9</span>
+            <div>
+              <div class="text-amber-400 text-xl tracking-wider" aria-label="5 stars">★★★★★</div>
+              <p class="text-sm text-slate-100">Rated 4.9 across <strong id="count" data-target="306">306</strong>+ Google Patient Reviews</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 flex md:grid md:grid-cols-3 gap-5 overflow-x-auto md:overflow-visible snap-x snap-mandatory no-scrollbar -mx-4 px-4 md:mx-0 md:px-0 pb-2">
+          <blockquote class="snap-center shrink-0 w-[85%] sm:w-[60%] md:w-auto lift bg-white text-slate-700 rounded-2xl p-7 flex flex-col">
+            <div class="text-amber-500 tracking-wider" aria-label="5 stars">★★★★★</div>
+            <p class="mt-4 text-[17px] leading-relaxed">“Very genuine clinic and excellent experience of dental treatment. The doctors from AIIMS Delhi are thorough, polite, and explain everything beforehand.”</p>
+            <footer class="mt-auto pt-6 flex items-center gap-3"><span class="grid place-items-center w-10 h-10 rounded-full bg-teal-50 text-teal-700"><i data-lucide="user" class="w-5 h-5"></i></span><span class="text-sm"><strong class="text-navy block">Google Review</strong>Verified patient</span></footer>
+          </blockquote>
+          <blockquote class="snap-center shrink-0 w-[85%] sm:w-[60%] md:w-auto lift bg-white text-slate-700 rounded-2xl p-7 flex flex-col">
+            <div class="text-amber-500 tracking-wider" aria-label="5 stars">★★★★★</div>
+            <p class="mt-4 text-[17px] leading-relaxed">“Got my root canal done here without any pain. Highly hygienic and friendly environment in Kankarbagh.”</p>
+            <footer class="mt-auto pt-6 flex items-center gap-3"><span class="grid place-items-center w-10 h-10 rounded-full bg-teal-50 text-teal-700"><i data-lucide="user" class="w-5 h-5"></i></span><span class="text-sm"><strong class="text-navy block">Google Review</strong>Root canal patient</span></footer>
+          </blockquote>
+          <blockquote class="snap-center shrink-0 w-[85%] sm:w-[60%] md:w-auto lift bg-white text-slate-700 rounded-2xl p-7 flex flex-col">
+            <div class="text-amber-500 tracking-wider" aria-label="5 stars">★★★★★</div>
+            <p class="mt-4 text-[17px] leading-relaxed">“One of the best dental clinics in Patna. Transparent pricing, no false promises, and top-tier expertise.”</p>
+            <footer class="mt-auto pt-6 flex items-center gap-3"><span class="grid place-items-center w-10 h-10 rounded-full bg-teal-50 text-teal-700"><i data-lucide="user" class="w-5 h-5"></i></span><span class="text-sm"><strong class="text-navy block">Google Review</strong>Verified patient</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- I. CONTACT + BOOKING -->
+    <section id="contact" class="py-20 lg:py-28 bg-mist">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-navy tracking-tight">Book your visit</h2>
+          <p class="mt-4 text-lg text-slate-600">Send a request and our team will contact you to confirm your slot. For a toothache, message us on WhatsApp.</p>
+        </div>
+
+        <div class="mt-12 grid lg:grid-cols-2 gap-8 items-start">
+          <!-- Left: info -->
+          <div class="space-y-6">
+            <div class="rounded-2xl bg-white border border-slate-200 p-7 space-y-6">
+              <div class="flex gap-4">
+                <span class="grid place-items-center w-11 h-11 shrink-0 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="map-pin" class="w-5 h-5"></i></span>
+                <div><h3 class="font-bold text-navy">Address</h3><address class="not-italic text-slate-600 mt-1">V 28, near Shanti Ray Hospital, Vidyapuri, Jogipur, Kankarbagh, Bankman Colony, Patna, Bihar 800020</address></div>
+              </div>
+              <div class="flex gap-4">
+                <span class="grid place-items-center w-11 h-11 shrink-0 rounded-xl bg-teal-50 text-teal-700"><i data-lucide="clock" class="w-5 h-5"></i></span>
+                <div><h3 class="font-bold text-navy">Operating hours</h3><p class="text-slate-600 mt-1">Monday to Sunday (Daily): Closes at 8:00 PM (20:00)</p></div>
+              </div>
+              <div class="flex gap-4">
+                <span class="grid place-items-center w-11 h-11 shrink-0 rounded-xl bg-emerald-50 text-emerald-700"><i data-lucide="message-circle" class="w-5 h-5"></i></span>
+                <div><h3 class="font-bold text-navy">WhatsApp (chat only)</h3>
+                  <a href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="mt-1 inline-flex items-center gap-2 text-emerald-800 font-bold text-lg hover:text-navy">099109 77697</a>
+                  <p class="text-sm text-slate-600">Tap to start a chat with the clinic.</p></div>
+              </div>
+              <div class="flex flex-col sm:flex-row gap-3">
+                <a href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-emerald-700 text-white font-bold hover:bg-emerald-800 active:scale-[.98] transition">
+                  <i data-lucide="message-circle" class="w-5 h-5"></i> Chat on WhatsApp
+                </a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Shanti+Ray+Hospital+Kankarbagh+Patna+Bihar" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-navy text-white font-bold hover:bg-navy-800 active:scale-[.98] transition">
+                  <i data-lucide="map" class="w-5 h-5"></i> Open in Google Maps
+                </a>
+              </div>
+            </div>
+
+            <div class="rounded-2xl overflow-hidden border border-slate-200 bg-white aspect-[16/10]">
+              <iframe title="Dental Delight location map, Kankarbagh, Patna" class="w-full h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Shanti+Ray+Hospital+Kankarbagh+Patna+Bihar&output=embed"></iframe>
+            </div>
+          </div>
+
+          <!-- Right: form -->
+          <div id="booking" class="scroll-mt-28 rounded-2xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xl shadow-navy/5">
+            <h3 class="text-2xl font-extrabold text-navy">Request an appointment</h3>
+            <p class="mt-1 text-slate-600 text-sm">Fields marked with * are required.</p>
+
+            <form id="booking-form" class="mt-6 grid gap-5" novalidate>
+              <div>
+                <label for="f-name" class="block text-sm font-bold text-navy mb-1.5">Full name *</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-navy placeholder:text-slate-500 focus:border-teal-700 focus:ring-2 focus:ring-teal-700/30 outline-none transition" placeholder="Your full name" />
+                <p class="err hidden mt-1.5 text-sm text-rose-700" role="alert"></p>
+              </div>
+              <div>
+                <label for="f-phone" class="block text-sm font-bold text-navy mb-1.5">Phone number *</label>
+                <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-navy placeholder:text-slate-500 focus:border-teal-700 focus:ring-2 focus:ring-teal-700/30 outline-none transition" placeholder="10-digit mobile number" />
+                <p class="err hidden mt-1.5 text-sm text-rose-700" role="alert"></p>
+              </div>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="f-date" class="block text-sm font-bold text-navy mb-1.5">Preferred date *</label>
+                  <input id="f-date" name="date" type="date" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-navy focus:border-teal-700 focus:ring-2 focus:ring-teal-700/30 outline-none transition" />
+                  <p class="err hidden mt-1.5 text-sm text-rose-700" role="alert"></p>
+                </div>
+                <div>
+                  <label for="f-time" class="block text-sm font-bold text-navy mb-1.5">Preferred time slot *</label>
+                  <select id="f-time" name="time" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-navy bg-white focus:border-teal-700 focus:ring-2 focus:ring-teal-700/30 outline-none transition">
+                    <option value="">Select a slot</option>
+                    <option>Morning (before 12 PM)</option>
+                    <option>Afternoon (12 PM – 4 PM)</option>
+                    <option>Evening (4 PM – 7:30 PM)</option>
+                  </select>
+                  <p class="err hidden mt-1.5 text-sm text-rose-700" role="alert"></p>
+                </div>
+              </div>
+              <div>
+                <label for="f-reason" class="block text-sm font-bold text-navy mb-1.5">Reason for visit *</label>
+                <select id="f-reason" name="reason" required class="w-full rounded-xl border border-slate-300 px-4 py-3 text-navy bg-white focus:border-teal-700 focus:ring-2 focus:ring-teal-700/30 outline-none transition">
+                  <option value="">Select a reason</option>
+                  <option>Root Canal</option>
+                  <option>Consultation</option>
+                  <option>Whitening</option>
+                  <option>Cosmetic</option>
+                  <option>Routine Checkup</option>
+                  <option>General Treatment / Toothache</option>
+                </select>
+                <p class="err hidden mt-1.5 text-sm text-rose-700" role="alert"></p>
+              </div>
+              <div>
+                <label for="f-msg" class="block text-sm font-bold text-navy mb-1.5">Message <span class="font-medium text-slate-600">(optional)</span></label>
+                <textarea id="f-msg" name="message" rows="3" class="w-full rounded-xl border border-slate-300 px-4 py-3 text-navy placeholder:text-slate-500 focus:border-teal-700 focus:ring-2 focus:ring-teal-700/30 outline-none transition" placeholder="Tell us about your symptoms or concerns"></textarea>
+              </div>
+              <button type="submit" id="submit-btn" class="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-teal-700 text-white font-bold text-base hover:bg-teal-800 active:scale-[.98] transition shadow-lg shadow-teal-700/20 disabled:opacity-70">
+                <i data-lucide="calendar-check" class="w-5 h-5"></i><span id="submit-label">Confirm Appointment Request</span>
+              </button>
+              <p class="text-xs text-slate-600 text-center">Your details are used only to confirm your appointment.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- J. FOOTER -->
+  <footer class="bg-navy text-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+      <div>
+        <a href="#home" class="flex items-center gap-3">
+          <span class="relative grid place-items-center w-11 h-11 rounded-xl bg-white/10">
+            <svg viewBox="0 0 200 200" class="w-6 h-6" aria-hidden="true"><path fill="#fff" d="M100 20C70 10 40 25 42 62c2 33 13 48 16 78 3 30 8 45 20 45 14 0 14-35 22-35s8 35 22 35c12 0 17-15 20-45 3-30 14-45 16-78 2-37-28-52-58-42z"/></svg>
+          </span>
+          <span class="leading-tight"><span class="block text-lg font-extrabold text-white">Dental Delight</span><span class="block text-xs text-slate-300">An initiative by AIIMS Delhi Alumni</span></span>
+        </a>
+        <p class="mt-5 max-w-md text-sm leading-relaxed text-slate-300">Specialist-led, painless and transparent dental care in Kankarbagh, Patna, rated 4.9 by 306+ patients on Google.</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-white">Quick links</h3>
+        <ul class="mt-4 grid grid-cols-2 gap-y-2 text-sm">
+          <li><a class="hover:text-amber-400 transition" href="#home">Home</a></li>
+          <li><a class="hover:text-amber-400 transition" href="#about">About</a></li>
+          <li><a class="hover:text-amber-400 transition" href="#services">Services</a></li>
+          <li><a class="hover:text-amber-400 transition" href="#doctors">Doctors &amp; Pedigree</a></li>
+          <li><a class="hover:text-amber-400 transition" href="#gallery">Gallery</a></li>
+          <li><a class="hover:text-amber-400 transition" href="#testimonials">Testimonials</a></li>
+          <li><a class="hover:text-amber-400 transition" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-white">Emergency contact (WhatsApp)</h3>
+        <p class="mt-4 text-sm text-slate-300">Severe toothache or dental trauma? Message us on WhatsApp now.</p>
+        <a href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="mt-3 inline-flex items-center gap-2 text-xl font-extrabold text-amber-400 hover:text-white transition"><i data-lucide="message-circle" class="w-5 h-5"></i>099109 77697</a>
+        <p class="mt-3 text-sm text-slate-300">Open daily, closes at 8:00 PM</p>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <p class="max-w-7xl mx-auto px-4 sm:px-6 py-5 text-xs text-slate-300">© <span id="year">2026</span> Dental Delight - An initiative by AIIMS Delhi Alumni. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Desktop floating WhatsApp button -->
+  <a href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="hidden lg:inline-flex fixed right-6 bottom-6 z-40 items-center gap-2 px-5 py-3.5 rounded-full bg-emerald-700 text-white font-bold shadow-xl shadow-emerald-900/30 hover:bg-emerald-800 hover:-translate-y-0.5 transition" aria-label="Chat with Dental Delight on WhatsApp">
+    <i data-lucide="message-circle" class="w-5 h-5"></i> Chat on WhatsApp
+  </a>
+
+  <!-- Mobile sticky quick-action bar -->
+  <div class="lg:hidden fixed inset-x-0 bottom-0 z-40 bg-white border-t border-slate-200 shadow-[0_-8px_24px_-12px_rgba(15,41,74,.35)] px-3 pt-3 grid grid-cols-2 gap-3" style="padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));">
+    <a href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-emerald-700 text-white font-bold text-sm active:scale-[.98] transition"><span aria-hidden="true">💬</span> WhatsApp Us</a>
+    <a href="#booking" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-teal-700 text-white font-bold text-sm active:scale-[.98] transition"><span aria-hidden="true">📅</span> Book Visit</a>
+  </div>
+
+  <!-- Success modal -->
+  <div id="success-modal" class="fixed inset-0 z-[90] hidden items-center justify-center p-4 bg-navy/70 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="success-title">
+    <div class="w-full max-w-md rounded-3xl bg-white p-8 text-center shadow-2xl">
+      <span class="mx-auto grid place-items-center w-16 h-16 rounded-full bg-teal-50 text-teal-700"><i data-lucide="circle-check" class="w-9 h-9"></i></span>
+      <h3 id="success-title" class="mt-5 text-2xl font-extrabold text-navy">Request received</h3>
+      <p id="success-text" class="mt-3 text-slate-600"></p>
+      <a id="success-wa" href="https://wa.me/919910977697?text=Hello%20Dental%20Delight%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="mt-6 inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 rounded-xl bg-emerald-700 text-white font-bold hover:bg-emerald-800 transition"><i data-lucide="message-circle" class="w-5 h-5"></i> Send these details on WhatsApp</a>
+      <p class="mt-3 text-sm text-slate-600">Need us sooner? Message us on WhatsApp: 099109 77697.</p>
+      <button id="success-close" class="mt-4 w-full px-6 py-3.5 rounded-xl bg-navy text-white font-bold hover:bg-navy-800 transition">Done</button>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 z-[95] hidden items-center justify-center p-4 bg-navy/90" role="dialog" aria-modal="true" aria-label="Gallery preview">
+    <div class="w-full max-w-3xl">
+      <div class="flex justify-end mb-3">
+        <button id="lb-close" class="grid place-items-center w-11 h-11 rounded-full bg-white text-navy hover:bg-amber-400 transition" aria-label="Close preview"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+      <div class="rounded-2xl overflow-hidden bg-white">
+        <div id="lb-visual"></div>
+        <div class="p-5 flex items-start justify-between gap-4">
+          <div><h3 id="lb-title" class="text-lg font-bold text-navy"></h3><p id="lb-desc" class="mt-1 text-slate-600 text-sm"></p></div>
+          <div class="flex gap-2 shrink-0">
+            <button id="lb-prev" class="grid place-items-center w-10 h-10 rounded-full border border-slate-300 text-navy hover:bg-slate-100" aria-label="Previous image"><i data-lucide="chevron-left" class="w-5 h-5"></i></button>
+            <button id="lb-next" class="grid place-items-center w-10 h-10 rounded-full border border-slate-300 text-navy hover:bg-slate-100" aria-label="Next image"><i data-lucide="chevron-right" class="w-5 h-5"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function () {
+    'use strict';
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var $  = function (s, r) { return (r || document).querySelector(s); };
+    var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+
+    // Optional: set to a form backend URL (Formspree, Google Apps Script, your API) to receive requests.
+    var FORM_ENDPOINT = '';
+
+    function icons() { if (window.lucide) window.lucide.createIcons(); }
+    icons();
+    $('#year').textContent = new Date().getFullYear();
+
+    /* ---------- Mobile menu ---------- */
+    var menu = $('#mobile-menu'), menuBtn = $('#menu-btn');
+    function setMenu(open) {
+      menu.classList.toggle('open', open);
+      menu.setAttribute('aria-hidden', String(!open));
+      menuBtn.setAttribute('aria-expanded', String(open));
+      menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      $('#menu-icon-open').classList.toggle('hidden', open);
+      $('#menu-icon-close').classList.toggle('hidden', !open);
+      $$('.m-link', menu).forEach(function (a) { a.tabIndex = open ? 0 : -1; });
+    }
+    menuBtn.addEventListener('click', function () { setMenu(!menu.classList.contains('open')); });
+    window.addEventListener('keydown', function (e) { if (e.key === 'Escape' && menu.classList.contains('open')) { setMenu(false); menuBtn.focus(); } });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 1280) setMenu(false); });
+
+    /* ---------- Smooth scrolling ---------- */
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href^="#"]');
+      if (!a) return;
+      var id = a.getAttribute('href');
+      if (id.length < 2) return;
+      var target = document.getElementById(id.slice(1));
+      if (!target) return;
+      e.preventDefault();
+      setMenu(false);
+      target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      history.pushState(null, '', id);
+    });
+
+    // Service cards pre-select the reason for visit
+    $$('.inquire').forEach(function (a) {
+      a.addEventListener('click', function () {
+        var sel = $('#f-reason');
+        sel.value = a.getAttribute('data-reason');
+        if (sel.value) clearError(sel);
+      });
+    });
+
+    /* ---------- Active nav highlight ---------- */
+    var links = $$('.nav-link');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) {
+            links.forEach(function (l) {
+              var on = l.getAttribute('href') === '#' + en.target.id;
+              l.classList.toggle('text-teal-700', on);
+              l.classList.toggle('bg-teal-50', on);
+              if (on) l.setAttribute('aria-current', 'true'); else l.removeAttribute('aria-current');
+            });
+          }
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      ['home', 'about', 'services', 'doctors', 'gallery', 'testimonials', 'contact'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) io.observe(el);
+      });
+    }
+
+    /* ---------- Review counter ---------- */
+    var count = $('#count');
+    if (count && 'IntersectionObserver' in window && !reduceMotion) {
+      var target = +count.dataset.target, started = false;
+      new IntersectionObserver(function (en, obs) {
+        if (en[0].isIntersecting && !started) {
+          started = true; obs.disconnect();
+          var t0 = performance.now(), dur = 1200;
+          (function tick(t) {
+            var p = Math.min((t - t0) / dur, 1);
+            count.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+            if (p < 1) requestAnimationFrame(tick);
+          })(t0);
+        }
+      }, { threshold: .6 }).observe(count);
+    }
+
+    /* ---------- Gallery: filters ---------- */
+    var items = $$('.g-item');
+    $$('.g-filter').forEach(function (btn) {
+      function paint(b, active) {
+        b.setAttribute('aria-pressed', String(active));
+        b.classList.toggle('bg-navy', active); b.classList.toggle('text-white', active); b.classList.toggle('border-navy', active);
+        b.classList.toggle('bg-white', !active); b.classList.toggle('text-navy', !active); b.classList.toggle('border-slate-300', !active);
+      }
+      paint(btn, btn.dataset.filter === 'all');
+      btn.addEventListener('click', function () {
+        $$('.g-filter').forEach(function (b) { paint(b, b === btn); });
+        var f = btn.dataset.filter;
+        items.forEach(function (it) { it.classList.toggle('hidden', !(f === 'all' || it.dataset.cat === f)); });
+      });
+    });
+
+    /* ---------- Gallery: lightbox ---------- */
+    var lb = $('#lightbox'), lbVisual = $('#lb-visual'), current = -1, lastFocus = null;
+    function lbItems() { return items.filter(function (it) { return !it.classList.contains('hidden') && it.querySelector('.open-lb'); }); }
+    function showLb(i) {
+      var list = lbItems(); if (!list.length) return;
+      current = (i + list.length) % list.length;
+      var it = list[current];
+      lbVisual.innerHTML = '';
+      lbVisual.appendChild($('.visual', it).cloneNode(true));
+      $('#lb-title').innerHTML = it.dataset.title;
+      $('#lb-desc').textContent = it.dataset.desc;
+      icons();
+    }
+    function openLb(it) {
+      lastFocus = document.activeElement;
+      showLb(lbItems().indexOf(it));
+      lb.classList.remove('hidden'); lb.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+      $('#lb-close').focus();
+    }
+    function closeLb() {
+      lb.classList.add('hidden'); lb.classList.remove('flex');
+      document.body.style.overflow = '';
+      if (lastFocus) lastFocus.focus();
+    }
+    items.forEach(function (it) {
+      var b = $('.open-lb', it);
+      if (b) b.addEventListener('click', function () { openLb(it); });
+    });
+    $('#lb-close').addEventListener('click', closeLb);
+    $('#lb-prev').addEventListener('click', function () { showLb(current - 1); });
+    $('#lb-next').addEventListener('click', function () { showLb(current + 1); });
+    lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
+    window.addEventListener('keydown', function (e) {
+      if (lb.classList.contains('hidden')) return;
+      if (e.key === 'Escape') closeLb();
+      if (e.key === 'ArrowLeft') showLb(current - 1);
+      if (e.key === 'ArrowRight') showLb(current + 1);
+    });
+
+    /* ---------- Before / After slider ---------- */
+    function teeth(fill, shade, gap) {
+      var xs = [28, 78, 128, 178, 228, 278], s = '';
+      xs.forEach(function (x, i) {
+        var h = (i === 0 || i === 5) ? 70 : (i === 1 || i === 4) ? 82 : 92;
+        s += '<path d="M' + x + ' 20 h40 q4 0 4 ' + (gap ? 6 : 4) + ' v' + (h - 18) + ' q0 16 -20 16 t-28 -16 v-' + (h - 18) + ' q0 -' + (gap ? 6 : 4) + ' 4 -4z" fill="' + fill + '"/>';
+      });
+      s += '<rect x="22" y="14" width="300" height="10" rx="5" fill="' + shade + '" opacity=".0"/>';
+      return '<svg viewBox="0 0 330 140" class="w-[78%] max-w-[420px]" aria-hidden="true">' +
+        '<path d="M10 10 q160 -26 310 0 v40 q-155 -22 -310 0z" fill="' + (gap ? '#F4B6B6' : '#F9C5C5') + '" opacity=".0"/>' + s + '</svg>';
+    }
+    $('#ba-before').innerHTML = teeth('#E3C27A', '#C9A04A', true);
+    $('#ba-after').innerHTML  = teeth('#FFFFFF', '#E2F4F7', false);
+    var ba = $('#ba-range');
+    function moveBa() {
+      var v = +ba.value;
+      $('#ba-before').style.clipPath = 'inset(0 ' + (100 - v) + '% 0 0)';
+      $('#ba-line').style.left = v + '%';
+    }
+    ba.addEventListener('input', moveBa); moveBa();
+
+    /* ---------- Booking form ---------- */
+    var form = $('#booking-form');
+    var dateInput = $('#f-date');
+    function isoToday() { var d = new Date(); d.setMinutes(d.getMinutes() - d.getTimezoneOffset()); return d.toISOString().slice(0, 10); }
+    dateInput.min = isoToday();
+
+    function errEl(input) { return input.parentElement.querySelector('.err'); }
+    function setError(input, msg) {
+      var p = errEl(input); if (!p) return;
+      p.textContent = msg; p.classList.remove('hidden');
+      input.setAttribute('aria-invalid', 'true');
+      input.classList.add('border-rose-500');
+    }
+    function clearError(input) {
+      var p = errEl(input); if (p) { p.textContent = ''; p.classList.add('hidden'); }
+      input.removeAttribute('aria-invalid');
+      input.classList.remove('border-rose-500');
+    }
+    function cleanPhone(v) {
+      var d = v.replace(/[\s\-()]/g, '');
+      d = d.replace(/^\+?91/, '').replace(/^0+/, '');
+      return d;
+    }
+    function validate() {
+      var ok = true, first = null;
+      function bad(el, m) { setError(el, m); ok = false; if (!first) first = el; }
+      var name = $('#f-name'), phone = $('#f-phone'), time = $('#f-time'), reason = $('#f-reason');
+      [name, phone, dateInput, time, reason].forEach(clearError);
+      if (name.value.trim().length < 2) bad(name, 'Enter your full name.');
+      if (!/^[6-9]\d{9}$/.test(cleanPhone(phone.value))) bad(phone, 'Enter a valid 10-digit mobile number.');
+      if (!dateInput.value) bad(dateInput, 'Choose a preferred date.');
+      else if (dateInput.value < isoToday()) bad(dateInput, 'Choose today or a future date.');
+      if (!time.value) bad(time, 'Select a time slot.');
+      if (!reason.value) bad(reason, 'Select a reason for your visit.');
+      if (first) first.focus();
+      return ok;
+    }
+    $$('input, select', form).forEach(function (el) { el.addEventListener('input', function () { clearError(el); }); });
+
+    var modal = $('#success-modal');
+    function openModal(text) {
+      $('#success-text').textContent = text;
+      modal.classList.remove('hidden'); modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+      $('#success-close').focus();
+    }
+    function closeModal() {
+      modal.classList.add('hidden'); modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+    $('#success-close').addEventListener('click', closeModal);
+    modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+    window.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal(); });
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!validate()) return;
+
+      var data = {
+        name: $('#f-name').value.trim(),
+        phone: cleanPhone($('#f-phone').value),
+        date: dateInput.value,
+        time: $('#f-time').value,
+        reason: $('#f-reason').value,
+        message: $('#f-msg').value.trim()
+      };
+      var btn = $('#submit-btn'), label = $('#submit-label');
+      btn.disabled = true; label.textContent = 'Sending request...';
+
+      function done() {
+        var nice = new Date(data.date + 'T00:00:00').toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long' });
+        openModal('Thank you, ' + data.name.split(' ')[0] + '. We have your request for ' + data.reason + ' on ' + nice + ' (' + data.time.toLowerCase() + '). Our team will contact you on ' + data.phone + ' to confirm.');
+        var msg = 'Hello Dental Delight, I would like to book an appointment.\n' +
+          'Name: ' + data.name + '\nPhone: ' + data.phone + '\nDate: ' + nice + '\nTime: ' + data.time + '\nReason: ' + data.reason +
+          (data.message ? '\nMessage: ' + data.message : '');
+        $('#success-wa').href = 'https://wa.me/919910977697?text=' + encodeURIComponent(msg);
+        form.reset(); dateInput.min = isoToday();
+        btn.disabled = false; label.textContent = 'Confirm Appointment Request';
+      }
+      function fail() {
+        btn.disabled = false; label.textContent = 'Confirm Appointment Request';
+        alert('We could not send your request. Please WhatsApp us on 099109 77697 to book.');
+      }
+
+      if (FORM_ENDPOINT) {
+        fetch(FORM_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data) })
+          .then(function (r) { if (!r.ok) throw new Error('bad'); done(); }).catch(fail);
+      } else {
+        setTimeout(done, 700); // demo mode: no backend connected
+      }
+    });
+  })();
+  </script>
+</body>
+</html>
